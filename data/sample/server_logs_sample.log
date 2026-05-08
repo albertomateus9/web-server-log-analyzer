@@ -1,0 +1,5 @@
+client-a - - [01/Mar/2026:08:00:01] "GET /index.html HTTP/1.1" 200 1024
+client-b - - [01/Mar/2026:08:03:18] "GET /courses.html HTTP/1.1" 200 2048
+client-c - - [01/Mar/2026:09:10:45] "GET /missing.html HTTP/1.1" 404 320
+client-a - - [01/Mar/2026:10:20:11] "POST /login HTTP/1.1" 403 512
+client-d - - [01/Mar/2026:10:25:55] "GET /dashboard HTTP/1.1" 200 4096
